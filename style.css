@@ -8,19 +8,21 @@ body {
 }
 header {
     background-color: #00264d;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 20px;
 }
-.logo {
-    max-height: 80px;
-    margin-bottom: 10px;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav a {
     color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+}
+.logo {
+    height: 50px;
 }
 main {
     padding: 20px;
